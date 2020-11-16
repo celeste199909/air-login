@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+html {
+    font-size: 14px;
+    transition: all ease 0.1s;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#wrapper {
+    /* max-width: 100%;
+    height: 100vh;
+    color: #999; */
+    /* font-size: 14px; */
+    /* min-width: 375px; */
+    /* background-color: #999; */
+    display: grid;
+    grid-template-columns: repeat(16, 6.25vw);
+    grid-auto-rows: 6.25vw;
+}
+#main {
+    grid-column: span 16;
+    grid-row: span 9;
+}
+
+
+a {
+    color: #999;
+    text-decoration: none;
+}
+
+form {
+    text-align: center;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+    width: 6rem;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+.welcome {
+    font-size: 1rem;
+    text-indent: -1rem;
+}
+
+.options {
+    font-size: 0.6rem;
+    text-indent: 6rem;
+    margin: 1rem;
+}
+
+.division {
+    margin: 0 1rem;
+}
+
+.icon {
+    z-index: 100;
+    width: 1rem;
+    position: relative;
+    top: 2rem;
+    left: -7rem;
+}
+
+.username,
+.password {
+    width: 17rem;
+    height: 2.5rem;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 1.2rem;
+    text-indent: 2.8rem;
+    display: block;
+    margin: 0 auto;
+    font-size: 0.8rem;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #ccc;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #ccc;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #ccc;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #ccc;
+}
+
+.username:focus,
+.password:focus {
+    color: #333;
+}
+
+input[type="checkbox"] {
+    width: 0.6rem;
+    height: 0.6rem;
+    display: inline-block;
+}
+
+.btn-login {
+    width: 17rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    background-color: orange;
+    text-align: center;
+    color: #fff;
+    letter-spacing: .5rem;
+    outline: none;
+    border: none;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+.right {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url(./img/right-img.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* 768px */
+@media screen and (max-width : 768px) {
+    .left {
+        width: 100%;
+    }
+    .right {
+        display: none;
+    }
+}
+
+@media screen and (min-width : 1000px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width : 1000px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width : 1500px) {
+    html {
+        font-size: 21px;
+    }
+} 
+
+@media screen and (min-width : 2000px) {
+    html {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width : 2500px) {
+    html {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width : 3000px) {
+    html {
+        font-size: 42px;
+    }
+}
+
+@media screen and (min-width : 3500px) {
+    html {
+        font-size: 49px;
+    }
+}
+
+@media screen and (min-width : 4000px) {
+    html {
+        font-size: 56px;
+    }
+}
+
+@media screen and (min-width : 5000px) {
+    html {
+        font-size: 70px;
+    }
+}
+
+@media screen and (min-width : 6000px) {
+    html {
+        font-size: 84px;
+    }
+}
+
+@media screen and (min-width : 7000px) {
+    html {
+        font-size: 98px;
+    }
+}
+
+@media screen and (min-width : 8000px) {
+    html {
+        font-size: 112px;
+    }
+}
