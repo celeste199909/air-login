@@ -18,6 +18,7 @@ body {
 
 #wrapper {
     /* background-color: #fff; */
+    overflow: hidden;
 }
 
 a {
@@ -27,6 +28,7 @@ a {
 
 form {
     text-align: center;
+    /* overflow: hidden; */
 }
 
 .left {
